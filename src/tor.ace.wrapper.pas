@@ -41,7 +41,7 @@ uses
   qtx.dom.events.touch;
 
 const
-  AceWrapperVersion = '0.3';
+  AceWrapperVersion = '0.2';
 
   {$R 'src-min-noconflict/ace.js'}
 
@@ -1041,7 +1041,7 @@ type
     TQTXDOMTouchMoveDelegate,
     TQTXDOMTouchCancelDelegate
     ])]
-  TQTXAceEditor = class(TQTXWidget)
+  TQTXAceEditor = class(TQTXSyncWidget)
   private
     fDivEditor: TQTXWidget;
     fAceEditor: TAceEditor;
@@ -1051,6 +1051,8 @@ type
   public
     property Editor: TAceEditor read fAceEditor;
     property Session: TAceEditSession read (fAceEditor.session);
+
+    procedure ObjectReady(); override;
 
     procedure WhenAceReady(CB: TStdCallBack); overload;
     procedure WhenAceReady(CB: TQTXWidgetConstructor); overload;
@@ -1269,16 +1271,16 @@ begin
       divEditor.Handle.style['top'] := 0;
       divEditor.Handle.style['bottom'] := 0;
 
-      TQTXDispatch.Execute(procedure ()
-      begin
-        fAceEditor := NewAceEditor(divEditor.Name);
-
-        if Assigned(CB) then CB(Self);
-      end, 10);
+      if Assigned(CB) then CB(Self);
     end);
-
-
   end);
+end;
+
+procedure TQTXAceEditor.ObjectReady();
+begin
+  inherited ObjectReady();
+
+  fAceEditor := NewAceEditor(fDivEditor.Name);
 end;
 
 destructor TQTXAceEditor.Destroy();
