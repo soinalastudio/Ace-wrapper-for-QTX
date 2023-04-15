@@ -1,0 +1,1123 @@
+﻿{
+    "class": "TProxyView",
+    "name": "Form1",
+    "visible": true,
+    "enabled": true,
+    "left": 0,
+    "top": 0,
+    "width": 808,
+    "height": 568,
+    "widget_unit": "qtx.dom.forms",
+    "widget_type": "TQTXForm",
+    "prototype": [
+        {
+            "name": "DisplayMode",
+            "type": "TQTXWidgetDisplayMode",
+            "value": "4",
+            "hasdefault": false
+        },
+        {
+            "name": "Enabled",
+            "type": "boolean",
+            "value": true,
+            "hasdefault": true,
+            "defaultvalue": true
+        },
+        {
+            "name": "Float",
+            "type": "TQTXWidgetFloat",
+            "value": "0",
+            "hasdefault": false
+        },
+        {
+            "name": "height",
+            "type": "int32",
+            "value": 568,
+            "hasdefault": false
+        },
+        {
+            "name": "Hint",
+            "type": "string",
+            "value": "",
+            "hasdefault": true,
+            "defaultvalue": ""
+        },
+        {
+            "name": "Left",
+            "type": "int32",
+            "value": 0,
+            "hasdefault": false
+        },
+        {
+            "name": "Name",
+            "type": "string",
+            "value": "Form1",
+            "hasdefault": false
+        },
+        {
+            "name": "ParentFont",
+            "type": "boolean",
+            "value": true,
+            "hasdefault": true,
+            "defaultvalue": true
+        },
+        {
+            "name": "PositionMode",
+            "type": "TQTXWidgetPositionMode",
+            "value": "0",
+            "hasdefault": false
+        },
+        {
+            "name": "ShowHint",
+            "type": "boolean",
+            "value": false,
+            "hasdefault": true,
+            "defaultvalue": false
+        },
+        {
+            "name": "ThemeBackground",
+            "type": "TThemeBackground",
+            "value": "0",
+            "hasdefault": false
+        },
+        {
+            "name": "ThemeBorder",
+            "type": "TThemeBorder",
+            "value": "0",
+            "hasdefault": false
+        },
+        {
+            "name": "Top",
+            "type": "int32",
+            "value": 0,
+            "hasdefault": false
+        },
+        {
+            "name": "TouchAction",
+            "type": "TQTXTouchAction",
+            "value": "1",
+            "hasdefault": false
+        },
+        {
+            "name": "Visible",
+            "type": "boolean",
+            "value": true,
+            "hasdefault": true,
+            "defaultvalue": true
+        },
+        {
+            "name": "width",
+            "type": "int32",
+            "value": 808,
+            "hasdefault": false
+        }
+    ],
+    "children": [
+        {
+            "class": "TProxyControl",
+            "name": "Label1",
+            "visible": true,
+            "enabled": true,
+            "left": 16,
+            "top": 8,
+            "width": 576,
+            "height": 32,
+            "widget_unit": "qtx.dom.control.label",
+            "widget_type": "TQTXLabel",
+            "prototype": [
+                {
+                    "name": "AlignH",
+                    "type": "TQTXContentBoxHAlign",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "AlignV",
+                    "type": "TQTXContentBoxVAlign",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Caption",
+                    "type": "string",
+                    "value": "Demo for Ace Editor Wrapper:",
+                    "hasdefault": true,
+                    "defaultvalue": "Label Caption"
+                },
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": "3",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "value": 32,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "value": 16,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "value": "Label1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": "4",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "value": 8,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": "1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "value": 576,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Wrap",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+            ]
+        },
+        {
+            "class": "TProxyControl",
+            "name": "AceEditor1",
+            "visible": true,
+            "enabled": true,
+            "left": 16,
+            "top": 64,
+            "width": 576,
+            "height": 360,
+            "widget_unit": "tor.ace.wrapper",
+            "widget_type": "TQTXAceEditor",
+            "prototype": [
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": "3",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "value": 360,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "value": 16,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Mode",
+                    "type": "TEnumAceMode",
+                    "value": "112",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "value": "AceEditor1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": "2",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "Text",
+                    "type": "string",
+                    "value": "program Hello;\r\nbegin\r\n  writeln ('Hello, world.');\r\nend.",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Theme",
+                    "type": "TEnumAceTheme",
+                    "value": "37",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "value": 64,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": "1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Version",
+                    "type": "string",
+                    "value": "0.3",
+                    "hasdefault": true,
+                    "defaultvalue": "0.3"
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "value": 576,
+                    "hasdefault": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+            ]
+        },
+        {
+            "class": "TProxyControl",
+            "name": "Button1",
+            "visible": true,
+            "enabled": true,
+            "left": 376,
+            "top": 440,
+            "width": 216,
+            "height": 40,
+            "widget_unit": "qtx.dom.control.button",
+            "widget_type": "TQTXButton",
+            "prototype": [
+                {
+                    "name": "AutoFocus",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": "3",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "value": 40,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "InnerHtml",
+                    "type": "string",
+                    "value": null,
+                    "hasdefault": false
+                },
+                {
+                    "name": "InnerText",
+                    "type": "string",
+                    "value": "Duplicate Selection",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Kind",
+                    "type": "TQTXButtonType",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "value": 376,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "value": "Button1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": "4",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "value": 440,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": "1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Value",
+                    "type": "string",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "value": 216,
+                    "hasdefault": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+                {
+                    "EventClass": "TQTXDOMMouseClickDelegate",
+                    "EventUnit": "qtx.dom.events.mouse",
+                    "EventName": "Delegate1",
+                    "EventHandler": "HandleDelegate1"
+                }
+            ]
+        },
+        {
+            "class": "TProxyControl",
+            "name": "Label2",
+            "visible": true,
+            "enabled": true,
+            "left": 16,
+            "top": 440,
+            "width": 128,
+            "height": 40,
+            "widget_unit": "qtx.dom.control.label",
+            "widget_type": "TQTXLabel",
+            "prototype": [
+                {
+                    "name": "AlignH",
+                    "type": "TQTXContentBoxHAlign",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "AlignV",
+                    "type": "TQTXContentBoxVAlign",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Caption",
+                    "type": "string",
+                    "value": "Theme:",
+                    "hasdefault": true,
+                    "defaultvalue": "Label Caption"
+                },
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": "3",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "value": 40,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "value": 16,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "value": "Label2",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": "4",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "value": 440,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": "1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "value": 128,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Wrap",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+            ]
+        },
+        {
+            "class": "TProxyControl",
+            "name": "ComboBox1",
+            "visible": true,
+            "enabled": true,
+            "left": 152,
+            "top": 440,
+            "width": 208,
+            "height": 40,
+            "widget_unit": "qtx.dom.control.combobox",
+            "widget_type": "TQTXComboBox",
+            "prototype": [
+                {
+                    "name": "AutoFocus",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": "3",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "value": 40,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "value": 152,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "value": "ComboBox1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": "4",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Required",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "value": 440,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": "1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "value": 208,
+                    "hasdefault": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+            ]
+        },
+        {
+            "class": "TProxyControl",
+            "name": "Label3",
+            "visible": true,
+            "enabled": true,
+            "left": 16,
+            "top": 488,
+            "width": 128,
+            "height": 40,
+            "widget_unit": "qtx.dom.control.label",
+            "widget_type": "TQTXLabel",
+            "prototype": [
+                {
+                    "name": "AlignH",
+                    "type": "TQTXContentBoxHAlign",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "AlignV",
+                    "type": "TQTXContentBoxVAlign",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Caption",
+                    "type": "string",
+                    "value": "Mode:",
+                    "hasdefault": true,
+                    "defaultvalue": "Label Caption"
+                },
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": "3",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "value": 40,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "value": 16,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "value": "Label3",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": "4",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "value": 488,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": "1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "value": 128,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Wrap",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+            ]
+        },
+        {
+            "class": "TProxyControl",
+            "name": "ComboBox2",
+            "visible": true,
+            "enabled": true,
+            "left": 152,
+            "top": 488,
+            "width": 208,
+            "height": 40,
+            "widget_unit": "qtx.dom.control.combobox",
+            "widget_type": "TQTXComboBox",
+            "prototype": [
+                {
+                    "name": "AutoFocus",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": "3",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "value": 40,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "value": 152,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "value": "ComboBox2",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": "4",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Required",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": "0",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "value": 488,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": "1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "value": 208,
+                    "hasdefault": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+            ]
+        }
+    ],
+    "events": [
+    ],
+    "view_type": 0
+}
